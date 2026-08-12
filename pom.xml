@@ -35,9 +35,7 @@
           <source>21</source> 
           <target>21</target> 
         </configuration>
-      </plugin> </plugin> </plugin> </plugins> ```
-                    <plugin>
-                   <groupId>org.apache.maven.plugins</groupId>
+    </plugin> <plugin> <groupId>org.apache.maven.plugins</groupId>
                    <artifactId>maven-war-plugin</artifactId>
                    <version>3.3.2</version>
                    <configuration>
