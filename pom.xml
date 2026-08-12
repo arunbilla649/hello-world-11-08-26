@@ -30,13 +30,12 @@
   </distributionManagement>
 
   <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
+    <plugins> <plugin> <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>21</source> <target>21</target> </configuration>
-      </plugin>
-      </plugin>
+          <source>21</source> 
+          <target>21</target> 
+        </configuration>
+      </plugin> </plugin> </plugin> </plugins> ```
                     <plugin>
                    <groupId>org.apache.maven.plugins</groupId>
                    <artifactId>maven-war-plugin</artifactId>
